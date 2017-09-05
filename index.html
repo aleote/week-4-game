@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Crystal Game </title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+
+
+	
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+<h1>Crystal Collector </h1>
+
+<h2> Number to Guess: <span id="number-to-guess"></span></h2>
+
+<div id="crystals"></div>
+
+
+<!-- <img src="assets/images/blue crystal.jpg" class=gemImage id=""
+<img src="assets/images/red crystal.jpg"
+ -->
+
+
+
+<div id="para1">
+<p> Instructions: You will be given a random number at the start of the game. </p>
+
+<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+
+<p> You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number </p>
+
+<p> The value of each crystal is hidden from you until you click on it </p>
+
+<p> Each time when the game starts, the game will change the values of each crystal</p>
+</div>
+
+
+<img src="assets/images/blue crystal.jpg" class="crystal-image" id="crystal1" alt="blue">
+<img src="assets/images/red crystal.jpg" class="crystal-image" id="crystal2" alt="red">
+<img src="assets/images/purple crystal.jpg" class="crystal-image" id="crystal3" alt="purple">
+<img src="assets/images/white crystal.jpg" class="crystal-image" id="crystal4" alt="white">
+
+
+<p id="wins"> Wins: </p>
+<p id="losses"> Losses: </p>
+
+<p id="totalScore"> Total Score: </p>
+
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
